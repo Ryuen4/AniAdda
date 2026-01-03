@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AniAdda - Anime Tracker BD</title>
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#1e1b4b" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'Noto Sans Bengali', 'sans-serif'],
+              bengali: ['Noto Sans Bengali', 'sans-serif'],
+            },
+            colors: {
+              sakura: {
+                50: '#fdf2f6',
+                100: '#fce7f0',
+                500: '#e76e95',
+                700: '#be185d',
+              },
+              indigo: {
+                900: '#1e1b4b',
+              },
+              jamdani: {
+                gold: '#D4A24C',
+              },
+              paper: '#fdfbf7',
+              dark: {
+                bg: '#020617',
+                card: '#0f172a',
+                border: '#1e293b'
+              }
+            },
+            backgroundImage: {
+              'nakshi-pattern': "url('data:image/svg+xml,%3Csvg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg fill=\"%23D4A24C\" fill-opacity=\"0.1\"%3E%3Cpath d=\"M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body { transition: background-color 0.3s ease, color 0.3s ease; }
+      .no-scrollbar::-webkit-scrollbar { display: none; }
+      .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      .dark body { background-color: #020617; color: #e2e8f0; }
+      body:not(.dark) { background-color: #fdfbf7; color: #1e293b; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "recharts": "https://esm.sh/recharts@^3.6.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
