@@ -2,6 +2,9 @@
 
 An integrated tracking ecosystem for East Asian media, providing real-time synchronization with Japanese broadcast schedules and granular user consumption statistics.
 
+## Link
+**[AniAdda](https://aniadda.netlify.app/)**
+
 ## 🚀 Features
 
 ### 1. Unified Media Discovery
@@ -14,13 +17,17 @@ An integrated tracking ecosystem for East Asian media, providing real-time synch
 * **Release Tracking:** Visual episode counters and airing status indicators.
 * **Content Categories:** Dedicated sections for Trending, Top Rated, and Upcoming releases.
 
-### 3. Quantitative User Analytics
+### 3. Progressive Web App (PWA)
+* **Cross-Platform Installation:** Installable directly from your browser for a native app experience on mobile and desktop.
+* **Optimized Performance:** Fast loading and offline-ready capabilities.
+
+### 4. Quantitative User Analytics
 * **Time Tracking:** Automatic calculation of total time invested (Days/Hours/Minutes).
 * **Data Aggregation:** Statistical breakdown of entries across all media types.
 * **Mean Scoring:** Calculation of average ratings based on personal library data.
 * **Data Portability:** Native export functionality for user statistics.
 
-### 4. Optimized UX/UI
+### 5. Optimized UX/UI
 * **Adaptive Theming:** High-fidelity Dark and Light mode support.
 * **List Management:** Segmented tracking for "Watching," "Reading," and "Completed" titles.
 * **Visual Fidelity:** High-resolution poster rendering with overlaid progress metrics.
@@ -31,8 +38,8 @@ An integrated tracking ecosystem for East Asian media, providing real-time synch
 | :--- | :--- |
 | **Search Engine** | Multi-tier filtration and genre exclusion |
 | **Sync Engine** | Real-time Japanese metadata integration |
+| **PWA Support** | Service workers for browser-based installation |
 | **Analytics** | Aggregated consumption metrics and scoring |
-| **Storage** | Localized list management and category tagging |
 
 ## 📸 Interface Preview
 
@@ -44,4 +51,3 @@ An integrated tracking ecosystem for East Asian media, providing real-time synch
 ---
 
 **AniAdda** is designed for high-perception users requiring absolute precision in media tracking.
-
