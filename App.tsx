@@ -1,15 +1,15 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import Navbar from './components/Navbar';
-import MediaCard from './components/MediaCard';
-import TrackingModal from './components/TrackingModal';
-import StatsChart from './components/StatsChart';
-import DetailsView from './components/DetailsView';
-import { ViewState, MediaItem, ListEntry, UserStatus, SearchFilters, MediaType } from './types';
-import { TRANSLATIONS, GENRES_LIST } from './constants';
+import Navbar from './components/Navbar.tsx';
+import MediaCard from './components/MediaCard.tsx';
+import TrackingModal from './components/TrackingModal.tsx';
+import StatsChart from './components/StatsChart.tsx';
+import DetailsView from './components/DetailsView.tsx';
+import { ViewState, MediaItem, ListEntry, UserStatus, SearchFilters, MediaType } from './types.ts';
+import { TRANSLATIONS, GENRES_LIST } from './constants.ts';
 import { Search, Loader2, X, SlidersHorizontal, ArrowUpNarrowWide, ArrowDownWideNarrow, AlertCircle, Zap } from 'lucide-react';
-import { getTrendingMedia, getTopMedia, getUpcomingMedia, searchMedia, getMediaDetails, getAiringSchedule } from './services/apiService';
-import type { ApiMediaType } from './services/apiService';
+import { getTrendingMedia, getTopMedia, getUpcomingMedia, searchMedia, getMediaDetails, getAiringSchedule } from './services/apiService.ts';
+import type { ApiMediaType } from './services/apiService.ts';
 
 const PersistenceManager = {
   saveList: (list: ListEntry[]) => {
